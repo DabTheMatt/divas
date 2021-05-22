@@ -1,11 +1,12 @@
 import './App.css';
-import Home from "./components/Home";
+import Tree from "./components/Tree";
+
 
 function App() {
   return (
     <div>
       Hello from app
-    <Home />
+    <Tree />
     </div>
   );
 }

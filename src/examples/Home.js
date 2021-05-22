@@ -31,7 +31,7 @@ display: flex;
 align-items: center;
 justify-content: stretch;
 padding: 5rem;
-flex-shrink: 
+flex-shrink: 2
 `;
 
 export const DivLeft = styled.div`
