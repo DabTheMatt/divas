@@ -14,8 +14,8 @@ class Tree extends React.Component {
 
     makeFrame = (height, width, color) => {
         this.setState({
-            height: `${height}px`,
-            width: `${width}px`,
+            height: `${height}`,
+            width: `${width}`,
             color: color
         })
         return (
