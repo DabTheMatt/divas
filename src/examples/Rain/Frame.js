@@ -35,7 +35,7 @@ class Frame extends Component {
   makeDot = () => {
       
     
-    const randomX = Math.floor(Math.random() * (this.props.height-5));
+    const randomX = Math.floor(Math.random() * (this.props.height-15));
     const randomY = Math.floor(Math.random() * (this.props.width-5));
     
     const dot = {
@@ -91,11 +91,10 @@ class Frame extends Component {
 export const FrameWrapper = styled.div`
   height: ${(props) => `${props.propsHeight}px` || "0px"};
   width: ${(props) => `${props.propsWidth}px` || "0px"};
-
   background: ${(props) => props.propsColor || "#caf0f8"};
   position: relative;
-  border-right: 10px solid grey;
-  border-bottom: 10px solid grey;
+  border: 10px solid grey;
+  
 `;
 
 export const FlexWrapper = styled.div`

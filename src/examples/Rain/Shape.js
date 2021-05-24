@@ -27,7 +27,6 @@ export const ShapeStyler = styled.div`
   top: ${(props) => `${props.top}px` || "0px"};
   left: ${(props) => `${props.left}px` || "0px"};
   animation: drop 1.5s ease-in-out;
-
   @keyframes drop {
     0% {
       background: #90e0ef; 
@@ -36,10 +35,10 @@ export const ShapeStyler = styled.div`
       background: #48cae4;
     }
     100% {
-      height: 10%;
+      height: 8%;
       width: 1%;
       background: transparent;
-      top: 90%;
+      top: 92%;
     }
   }
 `;

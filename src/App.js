@@ -1,12 +1,11 @@
 import './App.css';
-import Tree from "./components/Tree";
+import Kajak from "./components/Kajak";
 
 
 function App() {
   return (
     <div>
-      Hello from app
-    <Tree />
+    <Kajak />
     </div>
   );
 }
