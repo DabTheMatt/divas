@@ -6,25 +6,53 @@ class Frame extends Component {
   state = {
       x: 0,
       y: 0,
-      dots: []
+      dots: [],
+      dotId: 1,
+      stop: false
   };
 
+
+
   startDot = () => {
-    const start = setInterval(()=>{this.makeDot()}, 300)
+    this.setState({
+        stop: false
+    })
+    const start = setInterval(()=>{
+        if (this.state.stop === true) {
+            clearInterval(start);
+        } else if (this.state.stop === false) {
+            this.makeDot()
+        }
+    }, 100)
+  }
+
+  stopDot = () => {
+      this.setState({
+          stop: true
+      })
   }
 
   makeDot = () => {
+      
     
-    const randomX = Math.floor(Math.random() * (this.props.height-5)+5);
-    const randomY = Math.floor(Math.random() * (this.props.height-5)+5);
-    console.log(randomX, randomY)
+    const randomX = Math.floor(Math.random() * (this.props.height-5));
+    const randomY = Math.floor(Math.random() * (this.props.width-5));
+    
+    const dot = {
+        x: randomX,
+        y: randomY,
+        id: this.state.dotId +1
+    }
+    console.log("dot", dot);
     let tempDots = this.state.dots;
-    tempDots.push("dot");
+    tempDots.push(dot);
     this.setState({
         x: randomX,
         y: randomY,
         dots: tempDots
     })
+    console.log("dots", this.state.dots);
+    
   };
 
   
@@ -40,20 +68,17 @@ class Frame extends Component {
             {this.state.dots.map(el => {
                 return(
                     <Shape 
-          top={this.state.x}
-          left={this.state.y}
+          top={el.x}
+          left={el.y}
           />
                 )
             })}
-          <Shape 
-          top={this.state.x}
-          left={this.state.y}
-          />
-
+          
+            
         </FrameWrapper>
         <br/>
         <button onClick={this.startDot}>make</button>
-        <button onClick={this.stopDot}>make</button>
+        <button onClick={this.stopDot}>stop</button>
         <p>
           Frame size: {this.props.height} / {this.props.width}{" "}
         </p>
@@ -67,7 +92,10 @@ export const FrameWrapper = styled.div`
   height: ${(props) => `${props.propsHeight}px` || "0px"};
   width: ${(props) => `${props.propsWidth}px` || "0px"};
 
-  background: ${(props) => props.propsColor || "lightgrey"};
+  background: ${(props) => props.propsColor || "#caf0f8"};
+  position: relative;
+  border-right: 10px solid grey;
+  border-bottom: 10px solid grey;
 `;
 
 export const FlexWrapper = styled.div`
@@ -76,6 +104,14 @@ export const FlexWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
+`;
+
+export const Water = styled.div`
+height: 1px;
+width: 100%;
+background: blue;
+position 
 `;
 
 export default Frame;
