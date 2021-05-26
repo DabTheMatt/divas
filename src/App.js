@@ -1,14 +1,22 @@
 import './App.css';
-import Kajak from "./components/Kajak";
+import Main from "./components/Main"
+import styled from "styled-components";
+
 
 
 function App() {
   return (
-    <div>
-    <Kajak />
-    </div>
+    <inAppWrapper>
+    <Main />
+    
+    </inAppWrapper>
   );
 }
 
+
+export const inAppWrapper = styled.div`
+width: 60%;
+margin: 0 auto;
+`;
 export default App;
 
