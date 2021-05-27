@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 import Installation from "./Installation";
-
+import HelloWorld from "./HelloWorld";
+import Comments from "./Comments";
+import Variables from "./Variables";
 
 class Main extends Component {
     render() {
@@ -10,11 +12,11 @@ class Main extends Component {
             <h1>
                 My PHP adventures 
                 </h1>
-                <ListOfContentWrapper>
-                    <p>installation</p>
-                    <p>hello world!</p>
-                </ListOfContentWrapper>
+                
                 <Installation/>
+                <HelloWorld/>
+                <Comments/>
+                <Variables/>
                 
            
             </MainWrapper>
