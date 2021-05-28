@@ -4,7 +4,7 @@ class Comments extends Component {
     render() {
         return (
             <div>
-                <h2>
+                <h2 id="comments">
                     Comments
                 </h2>
                 <p>// single line</p>
