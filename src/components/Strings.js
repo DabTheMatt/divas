@@ -4,8 +4,8 @@ class Strings extends Component {
   render() {
     return (
       <div>
-        <h2>Strings</h2>
-        <p>Creating strings</p>
+        <h2 id="strings">Strings</h2>
+        <p>Creating strings:</p>
         <code>
           $name = "Matt"; <br />
           $string1 = 'Hello $name'; // Hello $name (because of single quotation,
@@ -13,7 +13,7 @@ class Strings extends Component {
           <br /> $string2 = "Hello $name"; // Hello Matt (because of double
           quotation, in dq you can concatenate variables) <br />
         </code>
-        <p>String concatenation</p>
+        <p>String concatenation:</p>
         <code>echo 'Hello '.'Matt'; // Hello Matt</code>
         <p>String functions:</p>
         <code>
@@ -29,7 +29,7 @@ class Strings extends Component {
           lcfirst, ucwords, strpos, substr(where, start, length),
           str_ireplace(ignores case), trim, strlen
         </code>
-        <p>Multiline text and line breaks</p>
+        <p>Multiline text and line breaks:</p>
         <code>
           $longString = "Hello People
           <br />
@@ -44,7 +44,7 @@ class Strings extends Component {
           I am Matt <br />
           I like pizza. <br /> (because of nl2br - New Line To &#60;BR&#62;)
         </code>
-        <p>Long string and reserved html tags</p>
+        <p>Long string and reserved html tags:</p>
         <code>
           $longString2 = "Hello &#60;b&#62; People&#60;/b
           <br />
@@ -60,8 +60,8 @@ class Strings extends Component {
           <br/>
           <br/>
           html_entity_decode('Hello&_#60;b&_#62; People&_#60;/b&_#62;'); // will decode html codes to: Hello <b>People</b>
-        </code>
-        <a href="https://www.php.net/manual/en/ref.strings.php" target="blank" alt="link to more math functions"><p>more math functions</p></a>
+        </code><br/><br/>
+        <a href="https://www.php.net/manual/en/ref.strings.php" target="blank" alt="link to more math functions">more math functions</a>
       </div>
     );
   }

@@ -31,6 +31,9 @@ class Main extends Component {
           <a href="#numbers">
             <li>Numbers</li>
           </a>
+          <a href="#strings">
+            <li>Strings</li>
+          </a>
         </ul>
 
         <Installation />

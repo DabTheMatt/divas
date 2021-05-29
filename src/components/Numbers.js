@@ -58,8 +58,8 @@ class Numbers extends Component {
                 $bigNumber = 123123123.123123; <br/>
                 echo number_format($bigNumber, 3, '.', "-"); // 123-123-123.123 <br/>
                 </code>
-                
-                <a href="https://www.php.net/manual/en/ref.math.php" target="blank" alt="link to more math functions"><p>more math functions</p></a>
+                <br/>
+                <a href="https://www.php.net/manual/en/ref.math.php" target="blank" alt="link to more math functions">more math functions</a>
             </div>
         );
     }

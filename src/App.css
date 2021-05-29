@@ -9,3 +9,24 @@ body {
   font-family: 'Bitter', serif;
   background: #ede0d4;
 }
+
+p {
+  font-size: 1.2rem;
+  font-weight: 600;;
+  color: #343a40;
+  margin-left: -0.6rem;;
+}
+
+
+code {
+  color: #495057;
+  
+}
+
+a:hover {
+  color: red;
+}
+
+h1, h2, h3 {
+  margin-left: -0.6rem;
+}

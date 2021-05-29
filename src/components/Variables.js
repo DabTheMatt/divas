@@ -8,7 +8,8 @@ class Variables extends Component {
                     Variables
                 </h2>
                 <p>Variabels naming: $ then letter or underscore then ev. numbers</p>
-                <ul>object types:</ul>
+                
+                <code><ul>object types:</ul>
                 <li>string - $name = "Matt"</li>
                 <li>integer - $age = 28</li>
                 <li>float/double - $height = 1.78</li>
@@ -17,6 +18,7 @@ class Variables extends Component {
                 <li>array</li>
                 <li>object</li>
                 <li>resource</li>
+                </code>
                 <p>printing variable:</p> <code>echo $name;</code>
                 <p>with contacenation (use . )</p><code>echo $name.(html tag np. br)</code>
                 <p>When printing boolean false is converted to empty string, true to "1"</p>
