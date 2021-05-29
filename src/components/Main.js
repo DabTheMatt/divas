@@ -5,6 +5,7 @@ import HelloWorld from "./HelloWorld";
 import Comments from "./Comments";
 import Variables from "./Variables";
 import Numbers from "./Numbers";
+import Strings from "./Strings";
 
 class Main extends Component {
   render() {
@@ -37,6 +38,7 @@ class Main extends Component {
         <Comments />
         <Variables />
         <Numbers />
+        <Strings />
       </MainWrapper>
     );
   }

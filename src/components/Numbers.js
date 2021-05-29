@@ -49,8 +49,8 @@ class Numbers extends Component {
                 </code>
                 <p>Number functions:</p>
                 <code>
-                    abs(-15); // absolute value of 15 <br/>;
-                    pow(2,3); // 2 to the 3 power (8) <br/>;
+                    abs(-15); // absolute value of 15; <br/>
+                    pow(2,3); // 2 to the 3 power (8); <br/>
                     ...sqrt, max, min, round, floor, ceil
                 </code>
                 <p>Formating numbers:</p>
