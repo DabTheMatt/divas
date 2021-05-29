@@ -7,9 +7,11 @@ class Comments extends Component {
                 <h2 id="comments">
                     Comments
                 </h2>
-                <p>// single line</p>
-                <p># single line</p>
-                <p>/* multiline */</p>
+                <code>
+                // single line<br/>
+                # single line<br/><br/>
+                /* <br/>multiline<br/> */<br/>
+                </code>
             </div>
         );
     }
