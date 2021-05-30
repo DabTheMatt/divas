@@ -4,7 +4,7 @@ class Arrays extends Component {
   render() {
     return (
       <div>
-        <h2>Arrays</h2>
+        <h2 id="arrays">Arrays</h2>
         <p>Creating Arrays:</p>
         <code>
           $fruits = ['apple','pear', 'orange']; <br />
@@ -105,7 +105,8 @@ class Arrays extends Component {
           $children = array_merge($boys, $girls);
           <br />
           <br />
-         $joined = [...$colors, ...$fruits]; // merge with use of spread operator
+          $joined = [...$colors, ...$fruits]; // merge with use of spread
+          operator
         </code>
       </div>
     );
