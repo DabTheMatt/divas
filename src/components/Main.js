@@ -6,6 +6,7 @@ import Comments from "./Comments";
 import Variables from "./Variables";
 import Numbers from "./Numbers";
 import Strings from "./Strings";
+import Arrays from "./Arrays";
 
 class Main extends Component {
   render() {
@@ -34,6 +35,9 @@ class Main extends Component {
           <a href="#strings">
             <li>Strings</li>
           </a>
+          <a href="#arrays">
+            <li>Arrays</li>
+          </a>
         </ul>
 
         <Installation />
@@ -42,6 +46,7 @@ class Main extends Component {
         <Variables />
         <Numbers />
         <Strings />
+        <Arrays />
       </MainWrapper>
     );
   }
