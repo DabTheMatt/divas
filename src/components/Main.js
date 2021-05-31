@@ -23,9 +23,9 @@ class Main extends Component {
           <a href="#comments">
             <li>Comments</li>
           </a>
-          <a href="#variables">
-            <li>Variables</li>
-          </a>
+          
+            <li><a href="#variables">Variables</a><span className="subLinks"> (naming, printing, contacenation, printing boolean, printing null, print variable type, print whole variable, check variable, check if variable is defined)</span></li>
+          
           <a href="#constants">
             <li>Constants</li>
           </a>

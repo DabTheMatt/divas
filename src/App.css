@@ -30,3 +30,11 @@ a:hover {
 h1, h2, h3 {
   margin-left: -0.6rem;
 }
+
+li {
+  font-size: 1.3rem;
+}
+
+.subLinks {
+  font-size: 1rem;
+}

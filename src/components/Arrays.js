@@ -21,7 +21,8 @@ class Arrays extends Component {
           var_dump($colors);
           <br />
           echo &#60;/pre&#62;; // will display array in more readable format
-          because of &#60;pre&#62; tag
+          because of &#60;pre&#62; tag<br/><br/>
+          print_r($fruits); // another way to print whole array
         </code>
         <p>Get element by index:</p>
         <code>
@@ -108,6 +109,59 @@ class Arrays extends Component {
           $joined = [...$colors, ...$fruits]; // merge with use of spread
           operator
         </code>
+        <p>
+          Associative arrays:
+        </p>
+        <code>
+          $person = [<br/>
+            'name' => "Brad", <br/>
+            'surname' => "Patison",<br/>
+            'age' => 30,<br/>
+            'hobbies' => ['rpg', 'tennis']<br/>
+          ]
+        </code>
+        <p>Acces element by key:</p>
+        <code>
+          $person['name'.'<br/>';]
+        </code>
+        <p>Set element by key:</p>
+        <code>
+          $person['car'] = 'Fiat';
+        </code>
+        <p>Null coalescing assignment operator (what a name!):</p>
+        <code>
+          if (!isset($person['address'])) &#123;<br/>
+
+            $person['address'] = 'unnknown';<br/>
+            &#125; <br/>// If there is no address set then address is equal "unnknown". If $person address is set, take value, if not address value is equal "unnknown". <br/><br/>
+            $person['address'] ??= 'unnknown'; <br/>// another way to set default walue if there is no address set
+
+        </code>
+        <p>Check if array has specific key:</p>
+        <code>
+          isset($person['address']); 
+        </code>
+        <p>Print the keys of the array:</p>
+        <code>
+          array_keys($person);
+        </code>
+        <p>Print the values of the array:</p>
+        <code>
+          array_values($person);
+        </code>
+        <p>Sorting associative arrays by values:</p>
+        <code>
+          ksort($person); // will sort associative array alphabeticaly by keys<br/>
+          <br/>
+          asort($person); // will sort associative array alphabeticaly by values
+        </code>
+          <p>Two dimensional arrays:</p>
+          <code>
+            $todos = [<br/>
+              ["title" => "todo title 1", "completed" => true]<br/>
+              ["title" => "todo title 2", "completed" => false]<br/>
+            ]
+          </code>
       </div>
     );
   }
