@@ -33,8 +33,14 @@ h1, h2, h3 {
 
 li {
   font-size: 1.3rem;
+  margin-bottom: 0.4rem;;
 }
 
 .subLinks {
   font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin-left: -2rem;;
 }

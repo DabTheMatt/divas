@@ -149,7 +149,7 @@ class Arrays extends Component {
         <code>
           array_values($person);
         </code>
-        <p>Sorting associative arrays by values:</p>
+        <p>Sorting associative arrays by keys / values:</p>
         <code>
           ksort($person); // will sort associative array alphabeticaly by keys<br/>
           <br/>
