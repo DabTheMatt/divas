@@ -8,7 +8,7 @@ class App extends Component {
   state = {
     crt: false,
     crtClass: "",
-    btn: "ON",
+    btn: "OFF",
     bcg: "#2dc653"
   }
 
