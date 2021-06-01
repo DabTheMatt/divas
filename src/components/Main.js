@@ -14,6 +14,7 @@ class Main extends Component {
   render() {
     return (
       <MainWrapper>
+        <div className="crt">
         <h1>My PHP adventures</h1>
         <ul>
           <a href="#installation">
@@ -44,6 +45,8 @@ class Main extends Component {
         <Arrays />
         <Conditionals />
         <Loops />
+
+        </div>
       </MainWrapper>
     );
   }
@@ -57,10 +60,14 @@ export const MainWrapper = styled.div`
   margin: 0 auto;
   width: 60%;
   margin-bottom: 3rem;
+  height: 100%;
 
   h1 {
     text-align: center;
   }
+
+  
+  
 `;
 
 export const ListOfContentWrapper = styled.div`
