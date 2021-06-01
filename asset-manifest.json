@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/divas/static/css/main.7ba61dac.chunk.css",
-    "main.js": "/divas/static/js/main.687aebd7.chunk.js",
-    "main.js.map": "/divas/static/js/main.687aebd7.chunk.js.map",
+    "main.css": "/divas/static/css/main.4a904324.chunk.css",
+    "main.js": "/divas/static/js/main.9dba5712.chunk.js",
+    "main.js.map": "/divas/static/js/main.9dba5712.chunk.js.map",
     "runtime-main.js": "/divas/static/js/runtime-main.c0ae19ea.js",
     "runtime-main.js.map": "/divas/static/js/runtime-main.c0ae19ea.js.map",
     "static/js/2.aace5a28.chunk.js": "/divas/static/js/2.aace5a28.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.047f3782.chunk.js": "/divas/static/js/3.047f3782.chunk.js",
     "static/js/3.047f3782.chunk.js.map": "/divas/static/js/3.047f3782.chunk.js.map",
     "index.html": "/divas/index.html",
-    "static/css/main.7ba61dac.chunk.css.map": "/divas/static/css/main.7ba61dac.chunk.css.map",
+    "static/css/main.4a904324.chunk.css.map": "/divas/static/css/main.4a904324.chunk.css.map",
     "static/js/2.aace5a28.chunk.js.LICENSE.txt": "/divas/static/js/2.aace5a28.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c0ae19ea.js",
     "static/js/2.aace5a28.chunk.js",
-    "static/css/main.7ba61dac.chunk.css",
-    "static/js/main.687aebd7.chunk.js"
+    "static/css/main.4a904324.chunk.css",
+    "static/js/main.9dba5712.chunk.js"
   ]
 }
