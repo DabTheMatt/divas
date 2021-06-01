@@ -11,10 +11,14 @@ import Conditionals from "./Conditionals";
 import Loops from "./Loops";
 
 class Main extends Component {
+  
+
+ 
   render() {
     return (
       <MainWrapper>
-        <div className="crt">
+        
+        
         <h1>My PHP adventures</h1>
         <ul>
           <a href="#installation">
@@ -46,7 +50,7 @@ class Main extends Component {
         <Conditionals />
         <Loops />
 
-        </div>
+        
       </MainWrapper>
     );
   }

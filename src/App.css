@@ -13,7 +13,7 @@ body {
   color: #2dc653;
   height: 100%;
   position: relative;
-  text-shadow: 0 0 3px #2dc653;
+  
 }
 
 
@@ -28,9 +28,14 @@ body {
     transform: translate(0,0) skew(4deg); 
   }
 }
+.flick {
+  text-shadow: 0 0 2px #2dc653;
+  position: relative;
+}
 
-body:before {
+.flick:before {
   animation: example 0.1s linear infinite;
+  
   height: 100%;
   content: " ";
   display: block;
@@ -79,16 +84,18 @@ a:hover {
 
 h1, h2, h3 {
   margin-left: -0.6rem;
-  animation: glitch 0.2s linear infinite; 
+  
 }
 
 li {
-  font-size: 1.3rem;
-  margin-bottom: 0.4rem;;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
 }
 
 .subLinks {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 ul {
@@ -98,4 +105,22 @@ ul {
 
 .tab {
   padding-left: 2rem;
+}
+
+button {
+  margin-left: 19vw;
+  margin-top: 2rem;
+  background: #2dc653;
+  color: black;
+  border: none;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-family: 'Bitter', serif;
+  font-weight: 600;
+}
+
+.invert {
+  background: black;
+  color: #2dc653;
 }
