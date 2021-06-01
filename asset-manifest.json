@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/divas/static/css/main.b9a1c8b5.chunk.css",
+    "main.css": "/divas/static/css/main.728bd964.chunk.css",
     "main.js": "/divas/static/js/main.d9e425b0.chunk.js",
     "main.js.map": "/divas/static/js/main.d9e425b0.chunk.js.map",
     "runtime-main.js": "/divas/static/js/runtime-main.c0ae19ea.js",
@@ -10,13 +10,13 @@
     "static/js/3.047f3782.chunk.js": "/divas/static/js/3.047f3782.chunk.js",
     "static/js/3.047f3782.chunk.js.map": "/divas/static/js/3.047f3782.chunk.js.map",
     "index.html": "/divas/index.html",
-    "static/css/main.b9a1c8b5.chunk.css.map": "/divas/static/css/main.b9a1c8b5.chunk.css.map",
+    "static/css/main.728bd964.chunk.css.map": "/divas/static/css/main.728bd964.chunk.css.map",
     "static/js/2.aace5a28.chunk.js.LICENSE.txt": "/divas/static/js/2.aace5a28.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c0ae19ea.js",
     "static/js/2.aace5a28.chunk.js",
-    "static/css/main.b9a1c8b5.chunk.css",
+    "static/css/main.728bd964.chunk.css",
     "static/js/main.d9e425b0.chunk.js"
   ]
 }
