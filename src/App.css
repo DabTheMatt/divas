@@ -44,3 +44,7 @@ ul {
   list-style: none;
   margin-left: -2rem;;
 }
+
+.tab {
+  padding-left: 2rem;
+}

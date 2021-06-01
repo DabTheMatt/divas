@@ -8,6 +8,7 @@ import Numbers from "./Numbers";
 import Strings from "./Strings";
 import Arrays from "./Arrays";
 import Conditionals from "./Conditionals";
+import Loops from "./Loops";
 
 class Main extends Component {
   render() {
@@ -28,11 +29,10 @@ class Main extends Component {
             <li><a href="#constants">Constants</a><span className="subLinks"> (define, build-in constants)</span></li>
             <li><a href="#numbers">Numbers</a><span className="subLinks"> (declaring, arythmetic operations, assigments by math operators, increment operator, decrement operator, number checking functions, conversion, number functions, formating, more)</span></li>
           
-          <a href="#strings">
-            <li>Strings</li>
-          </a>
+            <li><a href="#strings">Strings</a><span className="subLinks"> (creating, concatenation, string functions, multiline text, line breaks, long strings, reserved html tags)</span></li>
           <li><a href="#arrays">Arrays</a><span className="subLinks"> (create, print, get el, set el, check is there specific index, append el, print length, add el at end, remove el at end, add el at beginning, remove el at beginning, string into array, array into string, search el index in array, merge, associative arrays, acces el by key, set el by key, null coalescing assignment operator, check if array has specific key, print keys, print values, sort associative arrays by keys / values, two dimensional arrays)</span></li>
-          <li><a href="#conditionals">Conditionals</a><span className="subLinks"> (if, if-else)</span></li>
+          <li><a href="#conditionals">Conditionals</a><span className="subLinks"> (if, if-else, == / ===, if AND, if OR, ternary operator, short ternary, null coalescing operator, switch)</span></li>
+          <li><a href="#loops">Loops</a><span className="subLinks"> (if, if-else, == / ===, if AND, if OR, ternary operator, short ternary, null coalescing operator, switch)</span></li>
         </ul>
 
         <Installation />
@@ -43,6 +43,7 @@ class Main extends Component {
         <Strings />
         <Arrays />
         <Conditionals />
+        <Loops />
       </MainWrapper>
     );
   }

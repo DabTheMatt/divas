@@ -46,9 +46,9 @@ class Strings extends Component {
         </code>
         <p>Long string and reserved html tags:</p>
         <code>
-          $longString2 = "Hello &#60;b&#62; People&#60;/b
+          $longString2 = "Hello &#60;b&#62; People&#60;/b&#62;, 
           <br />
-          &#62;, I am &#60;i&#62;Matt&#60;/i&#62;, <br />I like pizza.";
+          I am &#60;i&#62;Matt&#60;/i&#62;, <br />I like pizza.";
           <br/>
           <br />
           echo $$longString2; // Hello <b>People</b>, I am <i>Matt</i>, I like
