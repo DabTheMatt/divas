@@ -27,7 +27,7 @@ class Conditionals extends Component {
           &#125; // if age is greater then 18 print 1 in another case print 2
         </code>
         <p>Difference between === and ==:</p>
-        <codde>
+        <code>
           $age = 20;
           <br />
           <br />
@@ -48,7 +48,7 @@ class Conditionals extends Component {
           <br />
           $age === '20'; // false;
           <br />
-        </codde>
+        </code>
         <p>if AND:</p>
         <code>
           $age = 20;
