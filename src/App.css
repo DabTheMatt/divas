@@ -124,3 +124,12 @@ button {
   background: black;
   color: #2dc653;
 }
+
+.rotate90 {
+  font-size: 2rem;
+  font-weight: 200;
+  writing-mode: vertical-rl;
+  vertical-align: bottom;
+  margin-left: -0.5rem;
+}
+
