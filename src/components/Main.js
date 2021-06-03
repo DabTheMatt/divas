@@ -21,7 +21,7 @@ class Main extends Component {
       <MainWrapper>
         
         
-        <h1>My PHP adventures</h1>
+        <h1 id="top">My PHP adventures</h1>
         <ul>
           <a href="#installation">
             <li>Installation</li>

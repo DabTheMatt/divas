@@ -16,7 +16,21 @@ body {
   
 }
 
+.btnDupa {
+  color: green;
+  background: white;
+  box-shadow: 5px 5px 10px white;
+}
 
+.btnDupa:hover {
+  
+  transform: scale(0.9);
+  box-shadow: 3px 3px 8px white;
+} 
+
+.btnDupa:active {
+  transform: rotate(90deg);
+}
   
 
 @keyframes glitch{
