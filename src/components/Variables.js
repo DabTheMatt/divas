@@ -1,12 +1,28 @@
 import React, { Component } from 'react';
 
 class Variables extends Component {
+    state={
+        show: true,
+        showText: this.props.show
+    }
+
+    handleShow = () => {
+        this.props.handleShow();
+        
+    }
+
+    
+
     render() {
         return (
             <div>
                 <h2 id="variables">
-                    Variables
+                    Variables<span 
+                    onClick={this.handleShow}
+                    className="showBtn">{this.props.show}</span>
                 </h2>
+                <div className={this.props.showClass}
+                >
                 <p>Variabels naming: $ then letter or underscore then ev. numbers</p>
                 
                 <code><ul>object types:</ul>
@@ -55,6 +71,7 @@ class Variables extends Component {
                     echo PHP_INT_MAX;
 
                 </code>
+                </div>
             </div>
         );
     }

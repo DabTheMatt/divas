@@ -14,7 +14,7 @@ class Loops extends Component {
           <span className="tab">echo $counter.'&#60; br/&#62;';</span>
           <br />
           <span className="tab">$counter++;</span> <br />
-          &#125; // will print numbers form 0 to 9 <br />
+          &#125; / will print numbers form 0 to 9 <br />
           <br />
           $counter = 0;
           <br />
@@ -31,7 +31,7 @@ class Loops extends Component {
           <span className="tab">&#125;</span>
           <br />
           <span className="tab">$counter++;</span> <br />
-          &#125; // will print numbers form 0 to 5 bacouse of break;
+          &#125; / will print numbers form 0 to 5 bacouse of break;
         </code>
         <p>do while loop;</p>
         <code>
@@ -43,7 +43,7 @@ class Loops extends Component {
           <br />
           <span className="tab">$counter++;</span>
           <br />
-          &#125; while ($counter &#60; 10); <br/>// will print numbers from 5 to 9 (
+          &#125; while ($counter &#60; 10); <br/>/ will print numbers from 5 to 9 (
 as long as it meets the condition ($counter &#60; 10) )
           <br />
         </code>
@@ -53,7 +53,7 @@ as long as it meets the condition ($counter &#60; 10) )
 
     <span className="tab">echo $i.''</span>;<br/>
     &#125;<br/>
-    // will print $i form 0 to 9 as long as it meets the condition ($i &#60; 10)
+    / will print $i form 0 to 9 as long as it meets the condition ($i &#60; 10)
 
         </code>
         <p>foreach loop:</p>
@@ -64,7 +64,7 @@ as long as it meets the condition ($counter &#60; 10) )
         <span className="tab">echo $fruit.", ";</span><br/>
         &#125;
                 <br/>
-                // will take each element of $fruits as $fruit and print it --&#62;
+                / will take each element of $fruits as $fruit and print it --&#62;
  banana, apple, orange,<br/><br/>
 
  foreach($fruits as $index => $fruit) &#123;
@@ -72,7 +72,7 @@ as long as it meets the condition ($counter &#60; 10) )
     <span className="tab">echo $index." ".$fruit.'&#60; br/&#62;'</span>;<br/>
     &#125;
 <br/>
-// will print index of each element of $fruits with element --&#62; <br/>0 banana<br/>
+/ will print index of each element of $fruits with element --&#62; <br/>0 banana<br/>
 1 apple<br/>
 2 orange
         </code>
@@ -100,7 +100,7 @@ foreach ($book as $key =&#62;
         <br/>
         &#125;
         <br/>
-        // will iterate over $book printing pairs of $key $value and $key and array $values if value of $key is an array
+        / will iterate over $book printing pairs of $key $value and $key and array $values if value of $key is an array
         </code>
       </div>
     );

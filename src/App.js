@@ -34,28 +34,26 @@ class App extends Component {
 
   render() {
     return (
-      <inAppWrapper>
+      <AppWrapper>
         <div className={this.state.crtClass}>
-          <button
+          <div className="crtWrapper">
+          <button className="crtBtn"
             onClick={this.handleCRT}
             style={{ background: this.state.bcg }}
           >
             Old CRT mode {this.state.btn}
           </button>
-
+</div>
           <Main />
         </div>
-      </inAppWrapper>
+      </AppWrapper>
     );
   }
 }
 
-export const inAppWrapper = styled.div`
-  width: 60%;
+export const AppWrapper = styled.div`
+  width: 100%;
   margin: 0 auto;
-  button {
-    padding: 2rem;
-    margin-left: 5rem;
-  }
+  
 `;
 export default App;

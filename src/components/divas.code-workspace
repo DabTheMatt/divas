@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/php-crash-course-2020"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

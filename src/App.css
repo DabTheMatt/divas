@@ -16,21 +16,7 @@ body {
   
 }
 
-.btnDupa {
-  color: green;
-  background: white;
-  box-shadow: 5px 5px 10px white;
-}
 
-.btnDupa:hover {
-  
-  transform: scale(0.9);
-  box-shadow: 3px 3px 8px white;
-} 
-
-.btnDupa:active {
-  transform: rotate(90deg);
-}
   
 
 @keyframes glitch{
@@ -121,17 +107,24 @@ ul {
   padding-left: 2rem;
 }
 
-button {
-  margin-left: 19vw;
+.crtWrapper {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+}
+.crtBtn {
+  
+  margin-left: 5rem;
   margin-top: 2rem;
   background: #2dc653;
   color: black;
   border: none;
-  padding: 0.3rem;
+  
   font-size: 1rem;
   border-radius: 5px;
   font-family: 'Bitter', serif;
   font-weight: 600;
+  
 }
 
 .invert {
@@ -145,5 +138,22 @@ button {
   writing-mode: vertical-rl;
   vertical-align: bottom;
   margin-left: -0.5rem;
+}
+
+.hide {
+  visibility: hidden;
+  height: 0rem;
+
+}
+
+.showBtn {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.showBtn:hover {
+  color: yellow;
+  cursor: pointer;
 }
 

@@ -133,8 +133,8 @@ class Arrays extends Component {
           if (!isset($person['address'])) &#123;<br/>
 
             $person['address'] = 'unnknown';<br/>
-            &#125; <br/>// If there is no address set then address is equal "unnknown". If $person address is set, take value, if not address value is equal "unnknown". <br/><br/>
-            $person['address'] ??= 'unnknown'; <br/>// another way to set default walue if there is no address set
+            &#125; <br/>/ If there is no address set then address is equal "unnknown". If $person address is set, take value, if not address value is equal "unnknown". <br/><br/>
+            $person['address'] ??= 'unnknown'; <br/>/ another way to set default walue if there is no address set
 
         </code>
         <p>Check if array has specific key:</p>

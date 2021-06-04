@@ -13,9 +13,55 @@ import Functions from "./Functions";
   
 
 class Main extends Component {
-  
+  state = {
+    showClassVar: "",
+    showVar: true,
+    showTextVar: "hide",
+    showClassCom: "",
+    showCom: true,
+    showTextCom: "hide",
+    dupaVar: "",
+    dupaCom: ""
+  }
 
- 
+
+
+ showClassVar = () => {
+    if (this.state.showVar) {
+   this.setState({
+     showTextVar: "show",
+     showVar: false,
+     showClassVar: "hide"
+   })
+  } else {
+    this.setState({
+      showTextVar: "hide",
+      showVar: true,
+      showClassVar: "show"
+    })
+  }
+
+ }
+
+ showClassCom = () => {
+  if (this.state.showCom) {
+ this.setState({
+   showTextCom: "show",
+   showCom: false,
+   showClassCom: "hide"
+ })
+} else {
+  this.setState({
+    showTextCom: "hide",
+    showCom: true,
+    showClassCom: "show"
+  })
+}
+
+}
+
+
+
   render() {
     return (
       <MainWrapper>
@@ -45,8 +91,20 @@ class Main extends Component {
 
         <Installation />
         <HelloWorld />
-        <Comments />
-        <Variables />
+        <Comments 
+        handleShow={this.showClass}
+        show={this.state.showText}
+        showClass={this.state.showClass}
+        
+        />
+        <Variables 
+        
+        handleShow={this.showClassVar}
+        show={this.state.showTextVar}
+        showClass={this.state.showClassVar}
+
+        
+        />
         <Numbers />
         <Strings />
         <Arrays />
