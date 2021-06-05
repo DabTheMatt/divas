@@ -156,7 +156,7 @@ class Main extends Component {
 export const MainWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   margin: 0 auto;
   
