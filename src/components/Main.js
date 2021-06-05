@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import tv from "../assets/tv.png"
 import Installation from "./Installation";
 import HelloWorld from "./HelloWorld";
 import Comments from "./Comments";
@@ -21,10 +22,32 @@ class Main extends Component {
     showCom: true,
     showTextCom: "hide",
     dupaVar: "",
-    dupaCom: ""
+    dupaCom: "",
+    crt: false,
+    crtClass: "",
+    btn: "OFF",
+    bcg: "#2dc653",
   }
 
+  handleCRT = () => {
+    if (this.state.crt) {
+      this.setState({
+        crt: !this.state.crt,
+        crtClass: "",
+        btn: "OFF",
+        bcg: "#2dff53",
+      });
+    } else {
+      this.setState({
+        crt: !this.state.crt,
+        crtClass: "flick",
+        btn: "ON",
+        bcg: "#2dc653",
+      });
+    }
 
+    console.log("class", this.state.crtClass);
+  };
 
  showClassVar = () => {
     if (this.state.showVar) {
@@ -65,8 +88,18 @@ class Main extends Component {
   render() {
     return (
       <MainWrapper>
-        
-        
+        <div className="frame">
+          <div className="insideFrame">
+        <div className={this.state.crtClass}>
+      <div className="screenWrapper">
+      <div className="crtWrapper">
+          <button className="crtBtn"
+            onClick={this.handleCRT}
+            style={{ background: this.state.bcg }}
+          >
+            Old CRT mode {this.state.btn}
+          </button>
+</div>
         <h1 id="top">My PHP adventures</h1>
         <ul>
           <a href="#installation">
@@ -111,8 +144,10 @@ class Main extends Component {
         <Conditionals />
         <Loops />
         <Functions />
-
-        
+        </div>
+        </div>
+        </div>
+        </div>
       </MainWrapper>
     );
   }
@@ -124,10 +159,11 @@ export const MainWrapper = styled.div`
   align-items: flex-start;
   justify-content: center;
   margin: 0 auto;
-  width: 60%;
-  margin-bottom: 3rem;
-  height: 100%;
-
+  
+  
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
   h1 {
     text-align: center;
   }
@@ -149,5 +185,7 @@ export const ListOfContentWrapper = styled.div`
     font-size: 1.5rem;
   }
 `;
+
+
 
 export default Main;

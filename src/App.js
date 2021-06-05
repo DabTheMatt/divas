@@ -37,12 +37,7 @@ class App extends Component {
       <AppWrapper>
         <div className={this.state.crtClass}>
           <div className="crtWrapper">
-          <button className="crtBtn"
-            onClick={this.handleCRT}
-            style={{ background: this.state.bcg }}
-          >
-            Old CRT mode {this.state.btn}
-          </button>
+          
 </div>
           <Main />
         </div>
@@ -54,6 +49,7 @@ class App extends Component {
 export const AppWrapper = styled.div`
   width: 100%;
   margin: 0 auto;
+  
   
 `;
 export default App;
