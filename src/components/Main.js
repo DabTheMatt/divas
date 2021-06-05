@@ -89,8 +89,8 @@ class Main extends Component {
     return (
       <MainWrapper>
         <div className="frame">
-          <div className="insideFrame">
         <div className={this.state.crtClass}>
+          <div className="insideFrame ">
       <div className="screenWrapper">
       <div className="crtWrapper">
           <button className="crtBtn"
