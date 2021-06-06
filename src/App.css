@@ -65,6 +65,18 @@ body {
   
 }
 
+.crs {
+  animation: crs 1s ease-in-out infinite;
+}
+
+@keyframes crs {
+  25%{
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
 
 p {
   font-size: 1.2rem;
@@ -89,6 +101,10 @@ a:hover {
 h1, h2, h3 {
   
   
+}
+
+.top {
+  margin-bottom: 0.2rem;
 }
 
 li {

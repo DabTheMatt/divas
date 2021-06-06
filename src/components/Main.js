@@ -100,7 +100,8 @@ class Main extends Component {
             Old CRT mode {this.state.btn}
           </button>
 </div>
-        <h1 id="top">My PHP adventures</h1>
+        <h1 id="top">Matt's PHP adventures</h1>
+        <h2 style={{textAlign:"center"}}>The most boring TV series<span className="crs">_</span></h2>
         <ul>
           <a href="#installation">
             <li>Installation</li>
