@@ -38,14 +38,14 @@ body {
 .flick:before {
   animation: example 0.1s linear infinite;
   
-  height: 760px;
-  width: 1000px;
+  height: 650px;
+  width: 810px;
   margin: 0 auto;
   content: " ";
   display: block;
   position: absolute;
-  top: 120px;
-  left: 0;
+  top: 517px;
+  left: -250px;
   bottom: 0;
   right: 0;
   background: linear-gradient(
@@ -70,7 +70,7 @@ p {
   font-size: 1.2rem;
   font-weight: 600;;
   
-  margin-left: -0.6rem;;
+  
 }
 
 
@@ -116,15 +116,19 @@ ul {
   align-self: center;
   justify-content: flex-start;
   height: 100%;
+  
 }
 .crtBtn {
   
   margin-left: 0rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
   background: #2dc653;
   color: black;
   border: none;
   
+  top: 465px;
+  left: 1265px;
+  z-index: 1;
   font-size: 1rem;
   border-radius: 5px;
   font-family: 'Bitter', serif;
@@ -163,10 +167,10 @@ ul {
 }
 
 .frame {
-  background: url("./assets/tv2.png") no-repeat center center;
+  background: url("./assets/tv5.png") no-repeat center center;
   background-size: contain;
-  width: 1200px;
-  height: 1000px;
+  width: 1550px;
+  height: 1550px;
   position: absolute;
   overflow: auto;
   margin: 0 auto;
@@ -174,7 +178,7 @@ ul {
 }
 
 .screenWrapper {
-  width: 65vw;
+  width: 780px;
   margin: 0 auto;
   position: relative;
   vertical-align: middle;
@@ -183,12 +187,12 @@ ul {
 
 .insideFrame {
   
-  height: 680px;
-  width: 910px;
+  height: 580px;
+  width: 800px;
   overflow: auto;
   position:absolute;
-  top: 170px;
-  left: 150px;
+  top: 550px;
+  left: 250px;
   
 }
 
