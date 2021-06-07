@@ -59,7 +59,7 @@ sumAll(1, 2, 3, 4, 5, 6);<br/><br/>
             echo sum(1, 2, 3, 4); <br/><br/>
             / function will iterate over all passed elements and call given function (fn) for every element. In first iteration function will take first element as $carry and second element as $n and return (=&#62;) sum. In next iterations function takes sum as $carry and next element as $n and return sum (10 at last iteration).
           </code><br/><br/>
-          <a href="top">hop to top <span className="rotate90">&#171;</span></a>
+          <a href="#top">hop to top <span className="rotate90">&#171;</span></a>
       </div>
     );
   }
