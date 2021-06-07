@@ -16,6 +16,16 @@ body {
   
 }
 
+.btn1 {
+  height: 36px;
+  width: 36px;
+  z-index: 2;
+  position: absolute;
+  left: 1235px ;
+  top: 665.5px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
 
   
 
@@ -183,7 +193,7 @@ ul {
 }
 
 .frame {
-  background: url("./assets/tv5.png") no-repeat center center;
+  background: url("./assets/tv6.png") no-repeat center center;
   background-size: contain;
   width: 1550px;
   height: 1550px;
@@ -191,6 +201,21 @@ ul {
   overflow: auto;
   margin: 0 auto;
   border-radius: 50px;
+}
+
+.frame::after {
+  content: "";
+  height: 36px;
+  width: 36px;
+  z-index: 3;
+  position: absolute;
+  left: 1235px ;
+  top: 665.5px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+.frame::after:hover {
+  border: 2px solid green;
 }
 
 .screenWrapper {

@@ -149,6 +149,10 @@ class Main extends Component {
         </div>
         </div>
         </div>
+        <div className=""></div>
+        <div className="btn1"
+        onClick={this.handleCRT}
+        ></div>
       </MainWrapper>
     );
   }
