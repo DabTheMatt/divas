@@ -415,3 +415,75 @@ ul a:hover {
     left: -130px;
   }
 }
+
+@media (max-width: 375px) {
+  .frame {
+    width: 1300px;
+    height: 1300px;
+    top: -380px;
+    left: -340px;
+    overflow-y: hidden; 
+overflow-x: hidden;
+  }
+  .insideFrame {
+    height: 520px;
+    width: 610px;
+    top: 450px;
+    left: 230px;
+  }
+
+  .screenWrapper {
+    width: 340px;
+  }
+
+  .btn1 {
+    height: 17px;
+    width: 17px;
+    left: -40px;
+    top: -250px;
+  }
+  .btn1 span {
+    font-size: 1rem;
+    top: 1px;
+    left: 1px;
+  }
+
+  .btn1:hover {
+    opacity: 0.8;
+  }
+
+  .btn2 {
+    height: 17px;
+    width: 17px;
+    left: 0px;
+    top: -271px;
+  }
+  .btn2 span {
+    font-size: 1rem;
+    top: 0px;
+    left: 5px;
+  }
+
+  .btn3 {
+    height: 17px;
+    width: 17px;
+    left: 309px;
+    top: 46px;
+  }
+
+  .btn3 span {
+    font-size: 1rem;
+    top: 1.5px;
+    left: 4px;
+  }
+  html {
+    font-size: 14px;
+  }
+
+  .flick:before {
+    height: 305px;
+    width: 390px;
+    top: 257px;
+    left: -130px;
+  }
+}
