@@ -11,6 +11,7 @@ import Arrays from "./Arrays";
 import Conditionals from "./Conditionals";
 import Loops from "./Loops";
 import Functions from "./Functions";
+import Dates from "./Dates";
 
 class Main extends Component {
   state = {
@@ -210,6 +211,13 @@ class Main extends Component {
                       function, arrow_reduce)
                     </span>
                   </li>
+                  <li>
+                    <a href="#dates">Dates</a>
+                    <span className="subLinks">
+                      {" "}
+                      (printing date, yesterday, formating date, timestamp, parsing the date, parsing the date form specific formats)
+                    </span>
+                  </li>
                 </ul>
 
                 <Installation />
@@ -230,6 +238,7 @@ class Main extends Component {
                 <Conditionals />
                 <Loops />
                 <Functions />
+                <Dates />
               </div>
             </div>
           </div>

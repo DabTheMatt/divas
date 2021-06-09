@@ -487,3 +487,7 @@ overflow-x: hidden;
     left: -130px;
   }
 }
+
+.lower {
+  text-transform: lowercase;
+}
